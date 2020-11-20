@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configurations
 app.config.from_object('config')
 
-# Import a module / component using its blueprint handler variable (mod_auth)
+# Import a module / component using its blueprint handler variable (mod_glare)
 from app.mod_glare.controllers import mod_glare as glare_module
 
 # Register blueprint(s)
